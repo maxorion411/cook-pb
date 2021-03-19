@@ -134,7 +134,8 @@ logo =""" \033[97m
    ### #  
    ## # This tool is for learning purposes only
    # ####################################################
-    _________________________________
+   
+   _________________________________
     
     
     """
@@ -152,8 +153,8 @@ cps = []
 def menu():
     os.system('clear')
     print logo
-    print '\033[1;97m1:Mobile Phone'
-    print '\x1b[1;97m0:Exit'
+    print '\033[1;97m1:Crack Using Mobile Phone'
+    print '\x1b[1;97m0:Exit this program'
     print 50 * '\x1b[1;97m~'
     pilih_menu()
 
@@ -179,9 +180,9 @@ def pilih_menu():
 def crack_nomor():
     os.system('clear')
     print logo
-    print '\x1b[1;97m[\x1b[1;97m01\x1b[1;97m]\x1b[1;97m 770,771,772,...'
-    print '\x1b[1;97m[\x1b[1;97m02\x1b[1;97m]\x1b[1;97m 191,192,193,...'
-    print '\x1b[1;97m[\x1b[1;97m03\x1b[1;97m]\x1b[1;92m Back To Menu          '
+    print '\x1b[1;97m[\x1b[1;97m01\x1b[1;97m]\x1b[1;97m Crack Account KURDISTAN'
+    print '\x1b[1;97m[\x1b[1;97m05\x1b[1;97m]\x1b[1;97m Crack Account KURDISTAN WITH PASS CHOICE'
+    print '\x1b[1;97m[\x1b[1;97m00\x1b[1;97m]\x1b[1;92m Back To Menu          '
     print 50 * '\x1b[1;97m~'
     pilih()
 
@@ -217,7 +218,7 @@ def indo():
     print 50 * '\x1b[1;97m~'
     try:
         c = raw_input('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Choose Number \x1b[1;97m :\x1b[1;97m 770-771-772-773-774-750-751-752-753-754-780-781-782-783-784: ')
-        exit('\x1b[1;97m[\x1b[1;97m!\x1b[1;97m]\x1b[1;97m  !!') if len(c) < 3 else ''
+        exit('\x1b[1;97m[\x1b[1;97m!\x1b[1;97m]\x1b[1;97m Dabe codaka 3 pit be !!') if len(c) < 3 else ''
         k = '+964'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -229,13 +230,13 @@ def indo():
         menu()
 
     xxx = str(len(id))
-    jalan('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Tổng Số\x1b[1;97m:\x1b[1;97m ' + xxx)
+    jalan('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Koy Raqamakan\x1b[1;97m:\x1b[1;97m ' + xxx)
     time.sleep(1)
-    jalan("\x1b[1;97m[\x1b[1;97m!\x1b[1;97m] \x1b[1;97m !")
+    jalan("\x1b[1;97m[\x1b[1;97m!\x1b[1;97m] \x1b[1;97mTkaya Daymaxa !")
     time.sleep(1)
     titik = ['.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m ' + o,
+        print '\r\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Crack Daste Pekrd' + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -925,6 +926,6 @@ def crack_email():
 
 if __name__ == '__main__':
     os.system('clear')
-    jalan('ZzzZ')
+    jalan('hello brother :)')
     time.sleep(2)
     menu()
