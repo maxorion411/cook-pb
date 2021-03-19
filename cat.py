@@ -1,11 +1,10 @@
-#Code By Lost
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 
 
-os.system("xdg-open https://t.me/LO1STT1")
-print("------ LOST ------")
-CorrectUsername = "cat"
-CorrectPassword = "fb"
+os.system("xdg-open https://github.com/stewiephan")
+print("STEWIE-PHAN")
+CorrectUsername = "STEWIE"
+CorrectPassword = "PHAN"
 
 loop = 'true'
 while (loop == 'true'):
@@ -13,7 +12,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
      password = raw_input("PASSWORD: ")
      if (password == CorrectPassword):
-            print ('tawawa ')
+            print ('LMAO')
             time.sleep(3)
             os.system('python2 .py')
             loop = 'false'
@@ -126,15 +125,15 @@ logo =""" \033[97m
 (_______/|/     \|   )_(   
                            
  
-   ##########################
-    #  TELEGRAM \ @LO1STT
-    #  Auther \ Lost-Zed
-    #  SITE  \ https://instabio.cc/LostSoftwere
-    #  TELGRAM CHANELL    \ @LO1STT1
-    #  Program language Python
-    #  (:
-    # TOOL :  FACEBOOK HACK
-    ##########################
+   ###########################################################
+   ######## #  This tool is for learning purposes only
+   ####### #  
+   ###### #  
+   ##### #  This tool is for learning purposes only
+   #### #  
+   ### #  
+   ## # This tool is for learning purposes only
+   # ####################################################
     _________________________________
     
     
@@ -153,8 +152,8 @@ cps = []
 def menu():
     os.system('clear')
     print logo
-    print '\033[1;97m1:Crack Using Mobile Phone'
-    print '\x1b[1;97m0:Exit this program'
+    print '\033[1;97m1:Mobile Phone'
+    print '\x1b[1;97m0:Exit'
     print 50 * '\x1b[1;97m~'
     pilih_menu()
 
@@ -926,6 +925,6 @@ def crack_email():
 
 if __name__ == '__main__':
     os.system('clear')
-    jalan('hello brother :)')
+    jalan('ZzzZ')
     time.sleep(2)
     menu()
