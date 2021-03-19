@@ -179,9 +179,9 @@ def pilih_menu():
 def crack_nomor():
     os.system('clear')
     print logo
-    print '\x1b[1;97m[\x1b[1;97m01\x1b[1;97m]\x1b[1;97m Crack Account KURDISTAN'
-    print '\x1b[1;97m[\x1b[1;97m05\x1b[1;97m]\x1b[1;97m Crack Account KURDISTAN WITH PASS CHOICE'
-    print '\x1b[1;97m[\x1b[1;97m00\x1b[1;97m]\x1b[1;92m Back To Menu          '
+    print '\x1b[1;97m[\x1b[1;97m01\x1b[1;97m]\x1b[1;97m 770,771,772,...'
+    print '\x1b[1;97m[\x1b[1;97m02\x1b[1;97m]\x1b[1;97m 191,192,193,...'
+    print '\x1b[1;97m[\x1b[1;97m03\x1b[1;97m]\x1b[1;92m Back To Menu          '
     print 50 * '\x1b[1;97m~'
     pilih()
 
@@ -217,7 +217,7 @@ def indo():
     print 50 * '\x1b[1;97m~'
     try:
         c = raw_input('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Choose Number \x1b[1;97m :\x1b[1;97m 770-771-772-773-774-750-751-752-753-754-780-781-782-783-784: ')
-        exit('\x1b[1;97m[\x1b[1;97m!\x1b[1;97m]\x1b[1;97m Dabe codaka 3 pit be !!') if len(c) < 3 else ''
+        exit('\x1b[1;97m[\x1b[1;97m!\x1b[1;97m]\x1b[1;97m Chọn Số !!') if len(c) < 3 else ''
         k = '+964'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -229,13 +229,13 @@ def indo():
         menu()
 
     xxx = str(len(id))
-    jalan('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Koy Raqamakan\x1b[1;97m:\x1b[1;97m ' + xxx)
+    jalan('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Tổng Số\x1b[1;97m:\x1b[1;97m ' + xxx)
     time.sleep(1)
-    jalan("\x1b[1;97m[\x1b[1;97m!\x1b[1;97m] \x1b[1;97mTkaya Daymaxa !")
+    jalan("\x1b[1;97m[\x1b[1;97m!\x1b[1;97m] \x1b[1;97mĐang Chạy !")
     time.sleep(1)
     titik = ['.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Crack Daste Pekrd' + o,
+        print '\r\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Vui Lòng Chờ' + o,
         sys.stdout.flush()
         time.sleep(1)
 
