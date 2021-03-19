@@ -217,7 +217,7 @@ def indo():
     print 50 * '\x1b[1;97m~'
     try:
         c = raw_input('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Choose Number \x1b[1;97m :\x1b[1;97m 770-771-772-773-774-750-751-752-753-754-780-781-782-783-784: ')
-        exit('\x1b[1;97m[\x1b[1;97m!\x1b[1;97m]\x1b[1;97m Chọn Số !!') if len(c) < 3 else ''
+        exit('\x1b[1;97m[\x1b[1;97m!\x1b[1;97m]\x1b[1;97m  !!') if len(c) < 3 else ''
         k = '+964'
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
@@ -231,11 +231,11 @@ def indo():
     xxx = str(len(id))
     jalan('\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Tổng Số\x1b[1;97m:\x1b[1;97m ' + xxx)
     time.sleep(1)
-    jalan("\x1b[1;97m[\x1b[1;97m!\x1b[1;97m] \x1b[1;97mĐang Chạy !")
+    jalan("\x1b[1;97m[\x1b[1;97m!\x1b[1;97m] \x1b[1;97m !")
     time.sleep(1)
     titik = ['.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m Vui Lòng Chờ' + o,
+        print '\r\x1b[1;97m[\x1b[1;97m\xe2\x80\xa2\x1b[1;97m]\x1b[1;97m ' + o,
         sys.stdout.flush()
         time.sleep(1)
 
